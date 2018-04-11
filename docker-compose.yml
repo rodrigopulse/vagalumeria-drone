@@ -1,0 +1,32 @@
+web:
+  image: montefuscolo/wordpress
+  volumes:
+    - ./:/var/www/html/
+  environment:
+    - WORDPRESS_WP_DEBUG=true
+  links:
+    - db:mysql
+  ports:
+    - "80:80"
+    - "443:443"
+
+db:
+  image: mariadb
+  environment:
+    - MYSQL_USER=root
+    - MYSQL_PASSWORD=root
+    - MYSQL_DATABASE=nome-banco
+    - MYSQL_ROOT_PASSWORD=root
+    - TERM=xterm
+  volumes:
+    - ./db/:/docker-entrypoint-initdb.d/
+  ports:
+      - "3306:3306"
+my-wpcli:
+  image: tatemz/wp-cli
+  volumes_from:
+    - web
+  links:
+    - db:mysql
+  entrypoint: wp
+  command: "--info"
