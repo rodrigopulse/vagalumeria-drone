@@ -1,4 +1,6 @@
 <?php
+// Componentes
+include dirname( __FILE__ ) . '/template_partes/componentes/imagem-gigante.php';
 /*
  * Remove &nbsp dos posts;
 */
