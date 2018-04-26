@@ -2,8 +2,8 @@
 /*
 Template Name: Drone
 */
-get_header();
-imagemGigante(); ?>
+get_header(); ?>
+<?php imagemGigante(); ?>
 <div class="container card-phantom max-width">
     <div class="row align-items-center">
         <div class="col-md-6 col-sm-12">
@@ -14,4 +14,5 @@ imagemGigante(); ?>
         </div>
     </div>
 </div>
+<?php destaqueComTexto(); ?>
 <?php get_footer(); ?>

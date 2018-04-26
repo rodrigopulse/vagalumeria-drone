@@ -57,8 +57,20 @@ h1, h2, h3, h4 {
 
 .max-width {
   position: relative;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: 0 auto; }
+
+.btn {
+  border-radius: 4rem;
+  padding: 1rem;
+  text-transform: uppercase; }
+
+.btn-primary {
+  background: #ff530d;
+  border-color: #ff530d; }
+  .btn-primary:hover {
+    background: #d1440a;
+    border-color: #d1440a; }
 
 .imagem-gigante {
   width: 100%;
@@ -90,7 +102,8 @@ h1, h2, h3, h4 {
     width: 50%;
     height: auto;
     position: absolute;
-    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     padding: 35px;
     z-index: 4; }
@@ -103,6 +116,38 @@ h1, h2, h3, h4 {
     font-weight: 400;
     color: white;
     font-size: 24px; }
+
+.destaque-com-texto {
+  position: relative;
+  display: table;
+  min-height: 490px; }
+  .destaque-com-texto__fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2; }
+  .destaque-com-texto__overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3; }
+  .destaque-com-texto__conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+    z-index: 4; }
+  .destaque-com-texto__texto {
+    color: #fff; }
 
 .card-phantom {
   margin-top: 25px; }

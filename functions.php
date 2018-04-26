@@ -1,6 +1,7 @@
 <?php
 // Componentes
 include dirname( __FILE__ ) . '/template_partes/componentes/imagem-gigante.php';
+include dirname( __FILE__ ) . '/template_partes/componentes/destaque-com-texto.php';
 include dirname( __FILE__ ) . '/template_partes/componentes/logo.php';
 /*
  * Remove &nbsp dos posts;
