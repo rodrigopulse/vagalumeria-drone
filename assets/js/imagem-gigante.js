@@ -16,8 +16,3 @@
     } ); //document.ready
 
 } )( jQuery );
-( function($) {
-    $( document ).ready( function(){
-		
-	} ); //document.ready
-} )( jQuery );

@@ -30,6 +30,7 @@ gulp.task( 'sass', function() {
 
 //JavaScript
 var jsFiles = [
+	'assets/js/imagem-gigante.js',
 	'assets/js/scripts.js'
 ];
 gulp.task( 'javascript', function() {
