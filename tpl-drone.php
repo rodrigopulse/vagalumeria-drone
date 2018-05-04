@@ -15,4 +15,26 @@ get_header(); ?>
     </div>
 </div>
 <?php destaqueComTexto(); ?>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container max-width">
+        <div class="container">
+            <h3 class="display-4">Filmagens de Drone</h3>
+            <p class="lead">As imagens com drone proporcionam qualidade para apresentar seu projeto, seja ele publicitário, curta ou o dlipe da sua banda . Também podem ser usadas imagens aéreas com drone para acompanhamento de obras, verificação de telhados, auxilio para reconhecimento de terrenos, entre outras infinitas possibilidades.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <iframe src="https://player.vimeo.com/video/245344106" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <iframe src="https://player.vimeo.com/video/245331796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="display-4">Fotografia Aérea com Drone</h3>
+            <p class="lead">As imagens com drone proporcionam qualidade para apresentar seu projeto, seja ele publicitário, curta ou o dlipe da sua banda . Também podem ser usadas imagens aéreas com drone para acompanhamento de obras, verificação de telhados, auxilio para reconhecimento de terrenos, entre outras infinitas possibilidades.</p>
+        </div>
+    </div>
+</div>
 <?php get_footer(); ?>
