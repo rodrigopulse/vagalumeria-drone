@@ -1,0 +1,24 @@
+.wpcf7-text, .wpcf7-textarea {
+    box-sizing: border-box;
+    padding: 12px;
+    width: 100%;
+}
+.wpcf7-submit {
+    cursor: pointer;
+    background: #ff530d;
+    border-color: #ff530d;
+    color: #fff;
+    border-radius: 4rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    &:hover {
+        background: rgb(209, 68, 10);
+        border-color: rgb(209, 68, 10);
+    }
+}

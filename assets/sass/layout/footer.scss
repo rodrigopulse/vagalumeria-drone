@@ -1,0 +1,18 @@
+.footer-contato {
+    width: 100%;
+    height: auto;
+    display: table;
+    position: relative;
+    color: #fff;
+    background: rgba(0, 0, 0, 1);
+    .jumbotron {
+        background: none;
+    }
+    &__formulario {
+        max-width: 560px;
+        height: auto;
+        display: table;
+        position: relative;
+        margin: 0 auto;
+    }
+}

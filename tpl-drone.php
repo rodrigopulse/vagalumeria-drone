@@ -15,7 +15,7 @@ get_header(); ?>
     </div>
 </div>
 <?php destaqueComTexto(); ?>
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0;">
     <div class="container max-width">
         <div class="container">
             <h3 class="display-4">Filmagens de Drone</h3>
