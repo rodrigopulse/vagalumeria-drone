@@ -6,7 +6,7 @@
                     <p class="destaque-com-texto__texto">As imagens com drone proporcionam qualidade para apresentar seu projeto, seja ele publicitário, curta ou o dlipe da sua banda.</p>
                     <p class="destaque-com-texto__texto">Também podem ser usadas imagens aéreas com drone para acompanhamento de obras, verificação de telhados, auxilio para reconhecimento de terrenos, entre outras infinitas possibilidades.</p>
                 </div>
-                <div class="col-md-5 col-sm-12 text-right">
+                <div class="col-md-5 col-sm-12 destaque-com-texto__botao">
                     <button type="button" class="btn btn-primary btn-lg">Orçamento</button>
                 </div>
             </div>

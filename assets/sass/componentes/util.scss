@@ -3,3 +3,17 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+//Bootstrap
+.embed-responsive {
+    margin-bottom: 25px;
+}
+.display-4 {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    @media screen and (min-width: 768px) {
+        font-size: 3.5rem;
+    }
+}
+.lead {
+    margin-bottom: 1.5rem;
+}

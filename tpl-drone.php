@@ -10,7 +10,7 @@ get_header(); ?>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/bibliotecas/drone-phantom.jpg" alt="Dji Phantom">
         </div>
         <div class="col-md-6 col-sm-12">
-            <h3 class="card-phantom__titulo text-right">Fotografia e Filmagem aérea com drones</h3>
+            <h3 class="card-phantom__titulo">Fotografia e Filmagem aérea com drones</h3>
         </div>
     </div>
 </div>
@@ -24,10 +24,14 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <iframe src="https://player.vimeo.com/video/245344106" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245344106" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <iframe src="https://player.vimeo.com/video/245331796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245331796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>

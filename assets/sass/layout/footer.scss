@@ -15,4 +15,11 @@
         position: relative;
         margin: 0 auto;
     }
+    &__titulo {
+        font-size: 35px;
+        @media screen and (min-width: 768px) {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+    }
 }
