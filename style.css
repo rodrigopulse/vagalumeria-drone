@@ -108,6 +108,9 @@ h1, h2, h3, h4 {
     background: #d1440a;
     border-color: #d1440a; }
 
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-response-output {
+  padding: 25px; }
+
 .imagem-gigante {
   width: 100%;
   height: 90%;

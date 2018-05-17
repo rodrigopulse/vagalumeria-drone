@@ -23,12 +23,12 @@ get_header(); ?>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245344106" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245331796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
