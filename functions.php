@@ -62,3 +62,11 @@ add_filter( 'video_embed_html', 'responsive_embed_html' );
  * Remove o meta generator do Wordpress
  */
 remove_action('wp_head', 'wp_generator');
+
+/**
+ * Adiciona o Title no wordpress
+ */
+function custom_setup() {
+	add_theme_support( 'title-tag' );
+ }
+ add_action( 'after_setup_theme', 'custom_setup' );
