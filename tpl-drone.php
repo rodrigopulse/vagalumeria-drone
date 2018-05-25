@@ -25,19 +25,22 @@ get_header(); ?>
             <div class="row">
                 <div class="col-sm-12">
                     <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/271842945" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245344106" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/245331796" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <h3 class="display-4">Fotografia Aérea com Drone</h3>
-            <p class="lead">As imagens com drone proporcionam qualidade para apresentar seu projeto, seja ele publicitário, curta ou o dlipe da sua banda . Também podem ser usadas imagens aéreas com drone para acompanhamento de obras, verificação de telhados, auxilio para reconhecimento de terrenos, entre outras infinitas possibilidades.</p>
         </div>
     </div>
 </div>
