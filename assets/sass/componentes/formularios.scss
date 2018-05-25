@@ -1,3 +1,4 @@
+/* Alterar para as classes do Ninja Forms no futuro */
 .wpcf7-text, .wpcf7-textarea {
     box-sizing: border-box;
     padding: 12px;
@@ -24,4 +25,9 @@
 }
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-response-output {
     padding: 25px;
+}
+
+/* Ninja Forms */
+.nf-form-fields-required {
+    margin-bottom: 15px;
 }

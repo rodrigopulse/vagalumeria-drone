@@ -85,6 +85,7 @@ h1, h2, h3, h4 {
     background: #d1440a;
     border-color: #d1440a; }
 
+/* Alterar para as classes do Ninja Forms no futuro */
 .wpcf7-text, .wpcf7-textarea {
   box-sizing: border-box;
   padding: 12px;
@@ -110,6 +111,10 @@ h1, h2, h3, h4 {
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-response-output {
   padding: 25px; }
+
+/* Ninja Forms */
+.nf-form-fields-required {
+  margin-bottom: 15px; }
 
 .imagem-gigante {
   width: 100%;
