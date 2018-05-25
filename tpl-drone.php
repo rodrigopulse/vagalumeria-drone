@@ -43,5 +43,8 @@ get_header(); ?>
             </div>
         </div>
     </div>
+    <div class="container max-width">
+        <?php echo do_shortcode( '[enjoyinstagram_mb_grid]' ); ?>
+    </div>
 </div>
 <?php get_footer(); ?>
