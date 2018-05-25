@@ -114,7 +114,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-response-ou
 
 /* Ninja Forms */
 .nf-form-fields-required {
-  margin-bottom: 15px; }
+  display: none; }
 
 .imagem-gigante {
   width: 100%;
