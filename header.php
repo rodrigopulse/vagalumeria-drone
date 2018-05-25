@@ -20,7 +20,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="<?php bloginfo('template_url'); ?>/ms-icon-144x144.png">
 	<meta name="theme-color" content="#8aaf82">
-	<title><?php wp_title(); ?></title>
 	<?php wp_head(); ?>
 </head>
 <body>
